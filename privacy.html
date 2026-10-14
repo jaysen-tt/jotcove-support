@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>隐私政策 · 留屿</title>
+  <style>
+    :root { color-scheme:light dark; --bg:#f5f4f1; --panel:#fff; --ink:#252833; --muted:#646776; --line:#e2e1dc; --accent:#425550; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#0c1012; --panel:#151b20; --ink:#f2f1eb; --muted:#a9b3b9; --line:#2b343b; --accent:#cbdf9b; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"PingFang SC",sans-serif; line-height:1.85; }
+    main { max-width:780px; margin:auto; padding:32px 24px 64px; }
+    nav { display:flex; gap:24px; align-items:center; flex-wrap:wrap; padding-bottom:32px; }
+    nav .brand { flex:1; color:var(--ink); text-decoration:none; font-weight:650; white-space:nowrap; }
+    a { color:var(--accent); overflow-wrap:anywhere; text-underline-offset:4px; }
+    a:focus-visible { outline:2px solid var(--accent); outline-offset:5px; }
+    h1 { font-size:clamp(30px,6vw,42px); letter-spacing:-1px; line-height:1.3; margin:20px 0; }
+    h2 { font-size:20px; line-height:1.5; margin:36px 0 12px; }
+    p { margin:12px 0; overflow-wrap:anywhere; }
+    .meta, footer { font-size:14px; color:var(--muted); }
+    .card { margin:32px 0; padding:28px; background:var(--panel); border:1px solid var(--line); border-radius:28px; }
+    .email { display:block; font-size:clamp(20px,4vw,28px); margin:16px 0; }
+    .button { display:inline-block; margin-top:16px; padding:10px 22px; border-radius:99px; border:1px solid var(--accent); text-decoration:none; }
+    li { margin:10px 0; }
+    footer { border-top:1px solid var(--line); margin-top:48px; padding-top:20px; }
+  </style>
+</head>
+<body><main>
+  <nav aria-label="网站导航"><a class="brand" href="index.html">留屿 · Jotcove</a><a href="index.html">联系支持</a><a href="privacy.html">隐私政策</a></nav>
+  <h1>隐私政策</h1>
+    <p class="meta">四川两个像素科技有限公司<br>更新与生效日期：2026年10月11日</p>
+  <section><h2>我们如何处理你的资料</h2><p>留屿由四川两个像素科技有限公司提供。当前版本无需注册账号，用于在自己的设备上保存和找回资料、记录事情的进展与思考。我们没有用于接收或同步这些记录的业务服务器。</p>
+<p>本政策适用于留屿的 iPhone、Android 和鸿蒙版本。核心记录与识别在本机处理；系统备份、你主动进行的分享或邮件反馈，以及下文说明的 Android 识字组件，存在各自的数据处理方式。</p></section>
+<section><h2>保存在设备上的内容</h2><p>你输入或选择的文字、照片、录音、文件，以及识别文字、修订内容、文件名、日期、进度、目标、打卡、衡量、设备档案和关联关系，会保存在应用的本地资料库中，用于展示、编辑、搜索与导出。外观等使用偏好也保存在本机。</p>
+<p>照片识字、语音转写和按意思找回会处理对应内容，并在本机生成结果或搜索索引。关闭「按意思找回」后仍可使用关键词搜索，已有的本地索引不会因此自动清空。留屿没有接入云端聊天或云端内容分析。</p>
+<p>导入时保留原文件，原照片已有的拍摄时间、位置等附带信息也可能随原件保留和导出。留屿本身不申请定位权限。</p></section>
+<section><h2>相机、麦克风与文件访问</h2><p>拍照和扫描需要使用相机；录音需要使用麦克风。我们会在使用相关功能时通过系统请求所需权限。拒绝这些权限不影响你使用文字记录等其他功能，你也可以在系统设置中撤回授权。</p>
+<p>导入图片、文件或恢复备份时，通过系统选择器读取你选择的内容；接收分享时，读取你从其他应用交给留屿的内容。成功导入的文件会复制到留屿自己的目录，便于之后继续使用。撤回来源权限不会自动删除已经保存的副本。</p></section>
+<section><h2>本机识别与第三方组件</h2><p>iPhone 使用 Apple Vision 的本机图片识别能力，鸿蒙使用随应用提供的 PP-OCRv5 本地图片识别模型；语音转写和语义检索也使用随应用提供的本地模型。系统能力及系统自身的诊断、备份行为，也受设备厂商的隐私说明和你的系统设置约束。</p>
+<p>Android 版集成 Google ML Kit 中文文字识别组件。按照 Google 的公开说明，输入图片和识别结果在设备上处理，不会发送至 Google 服务器；该组件会向 Google 发送性能与使用诊断信息，包括设备厂商、型号与系统版本、应用包名与版本、每次安装生成的标识、处理耗时、图片格式与分辨率、功能事件及错误信息，用于诊断、维护和改进服务。组件也可能联系 Google 获取修复或兼容性信息。</p>
+<p>这项 Android 组件行为与记录内容的本地保存不同，不能理解为整个应用及其组件绝不联网。留屿没有另行接入广告服务或独立的用户行为统计服务。</p></section>
+<section><h2>分享、备份与系统服务</h2><p>只有在你操作导出、分享或使用其他应用打开文件时，留屿才会将相应内容交给你选择的系统位置或应用。目标可能是设备上的文件夹，也可能是你使用的云盘或其他服务；之后的处理方式由相应服务决定。</p>
+<p>整库备份会包含记录、原件、相关历史及最近删除中的资料。导出的备份目前是未加密的 ZIP 文件，请妥善保存，不要发送给不信任的人。</p>
+<p>留屿不提供自己的云同步服务，但设备的系统备份或换机迁移可能包含应用资料，具体取决于设备和你的系统设置。因此，本地保存不等于资料永远不会通过系统备份离开设备。</p></section>
+<section><h2>保留、修改与删除</h2><p>你可以在应用内查看和修改资料，将记录移到「最近删除」，或在其中永久删除。最近删除不会自动清空，其中的内容仍占用空间，并可能进入你导出的备份。删除设备档案等关联容器时，关联原件会保留，原件需单独管理。</p>
+<p>永久删除会移除对应记录和相关索引，并尝试清理应用内的原件文件；如果文件清理失败，应用会提示。此前已经导出、分享或被系统备份的副本，不会随之自动删除，请在相应位置另行处理。卸载应用通常会移除其本机资料；换机或卸载前请先自行备份。</p>
+<p>导入、导出和外部打开可能生成临时副本。为了让接收应用完成读取，部分系统分享副本会暂时保留，超过七天后在后续相关操作时尝试清理，并非七天到期立即删除。</p>
+<p>资料由你在本机管理，我们无法通过服务器远程查看、恢复或删除你的本机记录。</p></section>
+<section><h2>联系支持时的信息</h2><p>你可以通过 aaroniuaw@iCloud.com 联系我们。点击「写邮件」只会尝试打开邮件应用并填写收件人和主题，不会自动发送，也不会自动附加记录、原件、设备标识或日志。</p>
+<p>如果你主动发送邮件，我们会收到你的邮箱地址、邮件内容以及你选择的附件，用于回复和处理问题。请只提供解决问题所需的信息，避免发送无关的私密资料。反馈信息仅在处理问题和必要跟进期间保留；不再需要时删除，法律要求保留的情况除外。你可以通过同一邮箱申请查询、更正或删除已发送给我们的反馈信息。邮件传送和存储也受你与我们所用邮件服务的规则约束。</p></section>
+<section><h2>未成年人使用</h2><p>如果你未满十四周岁，请在监护人的指导下阅读本政策和使用留屿，并在向我们发送个人信息前取得监护人的同意。监护人可通过支持邮箱联系我们，处理相关反馈信息。</p></section>
+<section><h2>政策更新与联系</h2><p>如果功能或数据处理方式发生变化，我们会更新本政策并注明日期；涉及需要另行告知或授权的变化时，会按适用要求进行说明。</p>
+<p>提供者：四川两个像素科技有限公司<br>联系邮箱：aaroniuaw@iCloud.com</p></section>
+  <h2>第三方说明原文</h2><ul><li><a href="https:&#47;&#47;developers.google.com&#47;ml-kit&#47;terms">Google ML Kit 隐私与条款</a></li>
+<li><a href="https:&#47;&#47;developers.google.com&#47;ml-kit&#47;android-data-disclosure">Google ML Kit Android 数据说明</a></li>
+<li><a href="https:&#47;&#47;policies.google.com&#47;privacy">Google 隐私政策</a></li></ul>
+  <footer>四川两个像素科技有限公司<br>aaroniuaw@iCloud.com</footer>
+</main></body>
+</html>
